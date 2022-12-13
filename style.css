@@ -10,7 +10,6 @@ body{
 .para1{
     margin-top: -101px;
     color: red;
-    /* font-weight: 214px; */
     font-size: 28px;
     margin-left: -73px;
 }
@@ -23,11 +22,7 @@ body{
 }
 
 .para3{
-    /* margin-top: -101px; */
     
-    /* font-weight: 214px; */
-    /* font-size: 28px; */
-    /* margin-left: -73px; */
     float: right;
 }
 
@@ -47,7 +42,6 @@ body{
 }
   
   
-  /* Clearfix (clear floats) */
   .row::after {
     content: "";
     clear: both;
@@ -72,7 +66,6 @@ body{
     
         font-size: 35px;
         margin-top: -62px;
-        /* padding-left: -23px; */
         margin-left: -54px;
 
 }
@@ -86,10 +79,6 @@ body{
     font-weight: bold;
 }
 
-
-
-
-
 .header{
     height: 1px;
 }
@@ -97,7 +86,6 @@ body{
 
 #topbar{
     padding-top: 18px;
-    /* padding-bottom: 18px; */
     overflow: auto;
 }
 
@@ -107,8 +95,7 @@ body{
   margin-right: auto;
   margin-top: -22px;
   color: black;
-  /* padding-bottom: 40px; */
-  /* font-size: ; */
+  
 }
 
 #getintouch{
@@ -118,7 +105,6 @@ body{
     text-decoration: underline;
 }
 
-/* poster */
 
 #poster{
     background-image: url(images/Group297.jpg);
@@ -135,9 +121,6 @@ body{
     font-size: 25px;
 }
 
-
-
-
 #midposter{
     background-image: url(images/Maskgroup.png);
     height: 500px;
@@ -148,44 +131,26 @@ body{
 
 #poster h1{
     font-size: 87px;
-    /* margin-top: 45px; */
     padding-top: 51px;
 }
 
-/* poster text 1 */
  
  #postertext1 p{
       color: rgba(236,39,55,255) ;
    }
 
-   /* poster text 2 */
-
-
-   /* number counter */
 #counter{
     display: flex;
     align-items: center;
 }
 
 
-/* footer */
-
-/* .footer{
-    background-color: rgba(24,24,24,255);
-    text-decoration: none;
-    color: white;
-    overflow: auto;
-} */
 .bottomfooter{
-    /* background-color: rgba(24,24,24,255); */
     background-color: rgba(24,24,24,255);
     text-decoration: none;
     color: white;
     height: 326px;
-    /* overflow: auto; */
-    /* padding-top: 77px; */
     margin-top: 426px;
-    /* overflow: auto; */
 }
 
 .div33{
@@ -213,10 +178,9 @@ body{
 
 }
 
-
+/* MEDIA QUERY....... */
 
 @media only screen and (max-width: 600px) {
-    /* .div33{background: red;} */
 
     
 #poster{
@@ -239,7 +203,6 @@ body{
     color: black;
     text-decoration: underline;
     font-size: 10px;
-    /* margin-left: 33px; */
 }
 
 .row {
@@ -252,17 +215,11 @@ body{
     margin-top: 228px;
     font-size: 15px;
     margin-left: -277px;
-    /* float: right; */
-    /* text-align: center; */
     margin-right: 266px;
 }
 
 .container {
-    /* display: flex; */
     padding-left: 116px;
-    /* width: -55px; */
-    /* height: 361px; */
-    /* font-size: -38px; */
     flex-direction: column;
 }
 
@@ -271,5 +228,4 @@ body{
     margin-top: -62px;
     margin-left: -54px;
 }
-
   }
